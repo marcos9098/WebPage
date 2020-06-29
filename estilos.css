@@ -2,6 +2,14 @@ body{
   background: orange;
   border: black;
 }
+
+/* selector de etiqueta, todas las etiquetas header van a tener ese diseño */
 header{
   border: black;
 }
+
+/* todas las etiquetas con el atributo "class:".facherito"" van a tener este diseño */
+.facherito{}
+
+/* las etiquetas con id:"aidi" van a tener este diseño */
+#aidi{}
