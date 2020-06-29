@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Marcos</title> <!-- lo que se puede leer en el tag de la pestaña -->
+    <link rel="icon" type="image/jpg" href="../../../sanic-sonic-meme-funny.jpg"> <!-- logo en pestaña -->
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+  <body>
+    <header>
+      <div>
+        <figure>
+          <img src="../../../MarcosDoggo.png" alt="Mi logo lindo hermoso" height="100px">
+        </figure>
+        <nav> <!-- van a haber enlaces de navegacion -->
+          <ul></ul> <!-- unordened list (se muestran los items con *) -->
+          <ol>
+            <li>
+              <a href="#Portafolio">Portafolio</a> <!-- enlaces (anchor) -->
+            </li> <!-- list item (se muestran los items con numeros (1.)) -->
+            <li>
+              <a href="#Experiencia">Experiencia</a>  <!-- CON # indicas que esta en la misma pag, con / indicas que esta en otra direccion -->
+            </li>
+            <li>
+              <a href="#Contacto">Contactame</a>
+            </li>
+          </ol> <!-- ordened list -->
+        </nav>
+      </div>
+    </header>
+    <section>
+      <h1>
+        Hola soy <strong>Marcos Di Martino</strong> <br> Estudiante de <strong>Informatica</strong> <br> Entusiasta en todos los ambitos <br> de <strong>desarrollo</strong>
+      </h1>
+      <img src="images/marcos en la pc.jpg" alt="Imagen Marcos en la pc" height="200px"> <!-- IMAGEN DE PORTADA -->
+    </section>
+    <section id="Portafolio">
+      <h2>Portafolio</h2>
+      <article>
+        <figure>
+          <img src="images/hollow-knight.jpg" alt="Img juego" width="500">
+        </figure>
+        <h3>Desarrollo de juegos</h3>
+        <h6>Java</h6>
+        <p><small><strong>Fecha:</strong> 27/6/2020</small></p>
+        <p><small><strong>Puedes verlo en:</strong><a> https://github.com/marcos9098</a></small></p>
+      </article>
+    </section>
+    <section id="Experiencia">
+      <h2>Mas Experiencia</h2>
+      <article>
+        <figure>
+          <img src="images/sofi en la pc.jpg" alt="Imagen sofi en la pc" height="200">
+        </figure>
+        <h3>Estudiar a distancia con mi bff</h3>
+        <p>Aca con sofi boludeando en vez de estudiar, casi un buen ejemplo</p>
+      </article>
+    </section>
+    <section id="Contacto">
+      <form class="" action="/suscripcion/" method="post">
+        <h3>¿Quieres contactarme?</h3>
+        <input type="text" placeholder="Dejame tu mail" id="email"> <!-- Puedes poner tipo datetime y se fija en la cache del navegador los emails anteriores -->
+        <button>Enviar</button>
+      </form>
+      <form class="" action="index.html" method="post">
+        <figure>
+          <a href="https://www.instagram.com/marcos9098/">
+            <img src="images/iglogo.png/" alt="logo de instagram" width="100">
+          </a>
+        </figure>
+      </form>
+    </section>
+    <footer>footer</footer>
+  </body>
+</html>
